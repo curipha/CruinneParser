@@ -138,7 +138,7 @@ class CruinneParser
       when lthr  = $10 then create_tag(lthr, 'del')
       when sup   = $11 then create_tag(sup, 'sup')
       when sub   = $12 then create_tag(sub, 'sub')
-      when br    = $13 then '<br />'
+      when         $13 then '<br />'
       when char  = $14 then escapehtml(char)
       else
         warn 'Failed in-line element parsing.'
