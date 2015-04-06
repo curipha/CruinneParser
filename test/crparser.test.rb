@@ -6,7 +6,7 @@
 # | (__| '_| || | | ' \| ' \/ -_) |  _/ _` | '_(_-</ -_) '_|
 #  \___|_|  \_,_|_|_||_|_||_\___| |_| \__,_|_| /__/\___|_|
 
-require '../crparser.rb'
+require_relative '../crparser.rb'
 
 class CruinneParserTester < CruinneParser
 
